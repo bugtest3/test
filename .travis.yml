@@ -6,6 +6,6 @@ python:
 
 script:
   - ls -al
-  - ulimit -n 65536
-  - timeout 30s python3 script.py -i 13.54.255.42 -p 80 -s 1000
+  - sudo ulimit -n 65536
+  - timeout 30s python3 script.py -i 13.54.255.42 -p 80 -s 100
   - python3 -c "print('hello')"
