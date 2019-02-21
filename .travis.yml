@@ -5,6 +5,5 @@ python:
   - 3.6
 
 script:
-  - sleep 5
-  - timeout 2 sleep 5
+  - ls -al
   - python3 -c "print('hello')"
