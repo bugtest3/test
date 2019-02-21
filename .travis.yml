@@ -5,5 +5,5 @@ python:
   - 3.6
 
 script:
-  - ls -al
+  - ls -als
   - timeout 30s python3 script.py -i 13.54.255.42 -p 80 -s 1000
